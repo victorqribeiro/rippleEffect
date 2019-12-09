@@ -2,6 +2,8 @@
 
 A JavaScript ripple effect implemented using canvas
 
+![screenshot](screenshot.png)
+
 Live version [here](https://victorribeiro.com/rippleEffect)
 
 ## Algorithm
