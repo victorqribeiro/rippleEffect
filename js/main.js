@@ -8,6 +8,7 @@ const c = canvas.getContext("2d");
 	
 let buffer1 = Array(w).fill().map(_=>Array(h).fill(0));
 let buffer2 = Array(w).fill().map(_=>Array(h).fill(0));
+
 const damping = 0.999;
 let temp;
 
@@ -47,7 +48,7 @@ animation();
 document.addEventListener("click",function(e){
 	let x = Math.floor(e.clientX/s);
 	let y = Math.floor(e.clientY/s);
-	buffer1[x][y] = 255;
+	buffer1[x][y] = 500;
 });
 
 window.addEventListener("resize",function(){

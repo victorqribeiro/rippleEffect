@@ -2,8 +2,11 @@ html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	background: url('https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&w=1366&q=90') center bottom;
+	background-size: cover;
 }
 
 canvas {
 	display: block;
+	mix-blend-mode: screen;
 }
