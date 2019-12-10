@@ -45,11 +45,15 @@ function animation(){
 
 animation();
 
-document.addEventListener("click",function(e){
+function ripple(e){
 	let x = Math.floor(e.clientX/s);
 	let y = Math.floor(e.clientY/s);
 	buffer1[x][y] = 500;
-});
+}
+
+document.addEventListener("click", ripple  );
+
+document.addEventListener("mousemove", ripple  );
 
 window.addEventListener("resize",function(){
 	location.reload();
